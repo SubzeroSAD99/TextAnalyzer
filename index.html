@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css" type="text/css" media="all" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+	<title>Analisador de Textos</title>
+</head>
+<body>
+	<header>
+		<h1>Analisador de Textos</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Escreva no campo abaixo</h2>
+			<div class="interaction">
+				<textarea></textarea>
+				<button id="speak">
+					<i class="bi bi-mic-fill"></i>
+				</button>
+			</div>
+			<div class="info">
+				<div>
+					<span id="words">0</span>
+					<h3>Palavras</h3>
+				</div>
+				<div>
+					<span id="characters">0</span>
+					<h3>Caracteres</h3>
+				</div>
+				<div>
+					<span id="characters-without-space">0</span>
+					<h3>Caracteres (sem espaços)</h3>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer>
+		<p><strong>&copy; 2024 Kauan Lopes (SubzeroSAD99)</strong></p>
+	</footer>
+</body>
+<script src="script.js" type="text/javascript" charset="utf-8"></script>
+</html>
